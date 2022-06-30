@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+/*     max-width: 200mm; */
+}
+
+
+main{
+    border:1px solid black;
+    border-radius: 2mm;
+}
+
+h2{
+    font-family: Helvetica, sans-serif;
+    color:white;
+    font-size: 15mm;
+    text-shadow: 1.5mm 1.5mm black;
+    background: rgba(38, 37, 37, 0.834);
+    border-top-left-radius: 2mm;
+    border-top-right-radius: 2mm;
+    padding:4mm;
+}
+
+article{
+    margin: 5mm;
+    border: 2mm solid black;
+    border-radius: 2mm;
+    padding: 10mm;
+    background: #999;
+}
+
+p{
+    font-size: 7mm;
+    color: white;
+}
+
+ul{
+
+    list-style-type: none;
+}
+
+.buttons::before{
+    content: '\2022';
+    color: rgb(203, 0, 0);
+    text-shadow: 0.2mm 0.2mm black;
+}
+
+li:first-child{
+    font-size: 0.7cm;
+    background: white;
+}
+
+li:nth-child(2){
+    font-size: 1cm;
+    color: white;
+}
+
+li:last-child{
+    font-size: 1.2cm;
+    background: white;
+}
+
+h3{
+    padding-top: 10mm;
+    font-size: 1.5cm;
+    color: white;
+}
